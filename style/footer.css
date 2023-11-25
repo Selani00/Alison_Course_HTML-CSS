@@ -1,0 +1,71 @@
+.footer-section{
+    height: 500px;
+    background-color: #08052c;
+    color: #bbbac2;
+    font-family: "Ubuntu Condensed","sana-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 100px;
+    margin-top: -3px;
+
+}
+
+
+.footer-section > .banner-image img{
+    
+    width: 150px;
+    height: 100%;
+    filter: brightness(50%);/*opacity:0.5; We can use this also*/
+}
+
+.footer-section > .first-row span{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10p;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+}
+
+.footer-section > .first-row >.phone{
+    
+    font-size: 0.8em;
+    color: #dea135;
+    text-transform: uppercase;
+
+}
+
+.footer-section > .second-row>.links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width:400px;
+}
+
+.footer-section > .third-row{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width:300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-section > .third-row a{
+   font-size: 1.5em;
+   color: #bbbac2;
+   transition: 0.5s;
+
+} 
+
+.footer-section > .third-row a:hover{
+    color: #cea13c;
+}
+
+.footer-section > .forth-row{
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
+

@@ -1,0 +1,134 @@
+
+/* This is a comment */
+.navigate-wrapper{
+    height: 230px;
+    background-color: #08052c;
+    color: #bbbac2;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/* Vertical center */
+    padding: 20px 100px;
+
+}
+
+
+/*left column styles*/
+.navigate-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+
+.navigate-wrapper > .left-column > .icon{
+    margin-right: 15px;
+}
+
+/* For all the i tags insidethis icon we add these style */
+.navigate-wrapper > .left-column > .icon i{
+    font-size: 2em;
+}
+
+.navigate-wrapper >.left-column > .Contact_Details{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 10px;
+}
+
+.navigate-wrapper >.left-column >.Contact_Details > .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+
+/*center column styles*/
+
+.navigate-wrapper> .center-column {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+
+
+
+.navigate-wrapper> .center-column >.banner-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navigate-wrapper> .center-column >.banner-image img{
+    width: 230px;
+    height: 100%;
+}
+
+
+.links-wrapper> .links {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper> .links a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper> .links a:hover{
+    color: yellow;
+    letter-spacing: 2px;
+
+}
+
+
+/*Rigth column styles*/
+
+.navigate-wrapper > .right-column{
+    display: flex;
+    align-items: center;
+
+}
+.navigate-wrapper> .right-column> .Address_Details{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navigate-wrapper> .right-column> .Address_Details a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+
+}
+
+.navigate-wrapper> .right-column> .Address_Details a:hover{
+    color: yellow;
+    
+
+}
+
+.navigate-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+
+}
+
+.navigate-wrapper > .right-column > .contact-icon a {
+    color: #858585;
+    transition: 0.5s;
+}
+
+.navigate-wrapper > .right-column > .contact-icon a:hover {
+    color: yellow;
+}

@@ -1,0 +1,30 @@
+
+/*Helpers*/
+
+.spacer60{
+    height: 60px;
+    width: 100%;
+}
+
+.spacer10{
+    height: 10px;
+    width: 100%;
+}
+
+.ancer-link{
+    text-decoration: none;
+
+}
+
+.ancer-link :focus{
+    text-decoration: none;
+
+}
+
+
+
+.ancer-link h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";/*This is unicone code from font.awsome*/
+    font-weight: 900;
+}
